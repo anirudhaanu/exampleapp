@@ -1,0 +1,41 @@
+.Preview{
+    height: 100%;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 125px;
+}
+
+.Inside-modal{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width:0px;
+    height:90%;margin:30px
+    
+}
+
+.Inside-modal:focus{
+    outline: none;
+}
+
+.Preview-component{
+    
+    width:200px;
+    height:200px;
+    margin-top:5px;
+    margin-right:10px;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.Preview-component h4{
+    padding:0px;
+    margin:0px;
+    border-width:2px;
+    border-style:solid;
+    margin-top:-2px;
+    font-weight:200
+}

@@ -1,0 +1,138 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.Side-bar{
+  background-color: white;
+  display:flex;
+  flex:1;
+  
+
+}
+
+
+.Label{
+  position: absolute;
+  z-index: 4;
+  font-size: 20px;
+  font-weight: 100;
+  height:10px
+}
+
+
+
+
+.File-handling{
+  
+  flex-direction: column;
+  justify-content: center;
+ 
+  
+  
+}
+
+
+
+.Upload-button{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  font-Size:20px;
+  
+}
+
+.Upload-div{
+  justify-content: space-around;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color: #282c34;
+  border:1px solid black;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.Submit-div{
+  position: absolute;
+  z-index: 40;
+  top: 25px;
+  right: 69px;
+ 
+  background-color: #282c34;
+  border: 1px solid black;
+  border-radius: 5px;
+  /* margin-top: 5px; */
+  
+}
+.Submit-div h4{
+  margin:0px;
+  padding: 5px;
+  cursor:pointer;
+  font-weight: 200;
+}
+
+.Submit-div :hover{
+  background-color:white;
+  color:black;
+}
+.Arrows-container{
+  justify-content: space-between;
+  display: flex;
+}
+
+.Arrows{
+  width:40px;
+  height:40px;
+  cursor:pointer
+}
+.App-header{
+  position: absolute;
+  top:-30px;
+  left:10px;
+  z-index: 50;
+  font-size: 30px;
+  color:white
+}
+
+.App-header h2{
+  font-weight: 200;
+  margin-bottom:2px
+}
+
+.App-container {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  flex:4
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

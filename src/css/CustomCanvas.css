@@ -1,0 +1,44 @@
+.Label{
+    position: absolute;
+    z-index: 4;
+    font-size: 20px;
+    font-weight: 100;
+    height:10px
+  }
+
+  .cross{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    right: 2px;
+    position: absolute;
+    z-index: 10;
+  }
+
+  .Custom-canvas{
+    display: flex;
+    flex: 8;
+    justify-content: center;
+    align-items: center;
+    
+    width:100%;
+    height:100%
+    
+    
+  }
+
+  .Canvas{
+    border:1px solid red;
+    position: absolute;
+    z-index: 2;
+    cursor: crosshair;
+    
+    
+    
+  }
+  
+  .Canvas-img{
+    border:1px solid white;
+    position: absolute;
+    
+  }
